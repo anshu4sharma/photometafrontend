@@ -6,10 +6,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
 import { useWeb3React } from "@web3-react/core";
-import { useGetLivePrice } from "react-pancakeswap-token-price";
 import { Injected, WalletConnect } from "../../Helpers/Injected";
 import Web3 from "web3";
-import { number } from "yup";
 const Moralis = require("moralis");
 const { EvmChain } = require("@moralisweb3/common-evm-utils");
 function Avtar() {
