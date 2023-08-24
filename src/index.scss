@@ -1,0 +1,197 @@
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+      url("./Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-weight: light;
+  }
+  input:focus ~ .floating-label,
+  input:not(:focus):valid ~ .floating-label {
+    top: 8px;
+    bottom: 10px;
+    left: 20px;
+    font-size: 11px;
+    opacity: 1;
+  }
+  
+  .inputText {
+    font-size: 14px;
+    width: 200px;
+    height: 35px;
+  }
+  
+  .floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 18px;
+    transition: 0.2s ease all;
+  }
+  .form-control,
+  .form-select {
+    border-radius: 2px !important;
+  }
+  .form-control:focus {
+    border-color: #000000 !important;
+    box-shadow: 0 0 0 0.25rem transparent !important;
+  }
+  .form-select:focus {
+    border-color: #000000 !important;
+    box-shadow: 0 0 0 0.25rem transparent !important;
+  }
+  .slick-prev {
+    z-index: 999 !important;
+  }
+  .slick-next {
+    z-index: 999 !important;
+  }
+  .header {
+    z-index: 1000 !important;
+  }
+  label,
+  .error {
+    text-transform: capitalize !important;
+  }
+  .container-fluid {
+    position: relative;
+    left: 0px;
+    width: 100%;
+  }
+  .accodian {
+    font-size: 14px !important;
+    font-family: "Montserrat", sans-serif !important;
+  }
+  @media only screen and (max-width: 992px) {
+    .tital {
+      font-size: 18px !important;
+      font-weight: 500 !important;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .tital {
+      font-size: 14px !important;
+      font-weight: 500 !important;
+    }
+  }
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .Support {
+    .faq {
+      width: 100%;
+      padding-bottom: 80px;
+  
+      &__title {
+        margin: 0;
+        padding-bottom: 25px;
+      }
+  
+      &__question {
+        width: 100%;
+      }
+      .font-weight-bold {
+        background: rgba(217, 217, 217, 0.44) !important;
+      }
+      &__question-button {
+        background: rgba(217, 217, 217, 0.44) !important;
+        color: #000 !important;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        transition: 0.7s ease-in-out;
+        padding: 0px;
+        cursor: pointer;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+  
+        &::after {
+          // content: url(.././src/assets/PLUS.svg);
+          margin-right: 17px;
+          transform: rotate(90deg);
+        }
+      }
+  
+      &__desc {
+        padding-right: 17px;
+        margin: 0%;
+        overflow: hidden;
+        opacity: 0;
+        height: 0;
+        transition: 0.7s ease-in-out;
+      }
+    }
+  }
+  .show-description {
+    color: #000 !important;
+    height: auto !important;
+    opacity: 1 !important;
+    padding: 16px 18px !important;
+    background: rgb(238, 238, 238) !important;
+  }
+  
+  .btn {
+    border: 2px solid #0e5a33;
+    background-color: #0e5a33;
+    box-shadow: 8px 8px 18px 0px rgba(84, 181, 119, 0.3) !important;
+    font-size: 18px;
+    padding: 5px 5px 5px 28px;
+    border-radius: 25px;
+    color: white;
+  }
+  .upload-btn-wrapper input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .light {
+    color: #000 !important;
+    background: rgba(217, 217, 217, 0.44) !important;
+  }
+  .error {
+    color: red;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  b,
+  div,
+  li,
+  label,
+  input,
+  button,
+  select,
+  a {
+    font-family: "Montserrat" !important;
+  }
+  thead {
+    tr {
+      .ant-table-cell {
+        background: #eeeeee !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+      }
+    }
+  }
+  tbody {
+    tr {
+      .ant-table-cell {
+        color: #000 !important;
+        font-weight: 500 !important;
+        font-size: 15px !important;
+      }
+    }
+  }
+  

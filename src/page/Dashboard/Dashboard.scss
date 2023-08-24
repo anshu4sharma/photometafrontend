@@ -1,0 +1,36 @@
+.tital {
+  font-size: 21px !important;
+  font-weight: 500 !important;
+}
+@media only screen and (max-width: 992px) {
+  .tital {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tital {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+  }
+  .link_ref {
+    font-size: 11px !important;
+  }
+}
+.BuyBtn {
+  background: #7e05c4;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #ffffff;
+}
+.Connect {
+  transition: 0.4s ease-in-out;
+}
+.Connect:hover {
+  background: rgb(60, 111, 240) !important;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  color: #fff !important;
+}

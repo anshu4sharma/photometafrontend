@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.main-heading {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 65px;
+  color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div {
+  font-family: Montserrat, sans-serif !important;
+}
+.siadimgs {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  > .siadimg {
+    position: absolute;
+    bottom: 8%;
+    width: 40%;
+  }
+  > .siadimg1 {
+    position: absolute;
+    width: 75%;
+    margin: 12% 0% 0% 25%;
+    top: 0;
+  }
+}
+.leftsiad {
+  background: radial-gradient(
+    35% 45% at 40% 45%,
+    rgba(150, 22, 234, 0.19) 0%,
+    rgba(45, 7, 70, 0) 100%
+  );
+  height: 100%;
+}
+.main {
+  height: 83vh;
+}
+.burger {
+  .burger-line {
+    background: #fff;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-heading {
+    font-size: 34px !important;
+    line-height: 50px;
+  }
+  .main {
+    height: 100% !important ;
+  }
+  .Tital {
+    font-size: 20px !important;
+    text-align: center;
+  }
+  .newphotometa {
+    width: 70% !important;
+    > h6 {
+      font-size: 16px !important;
+    }
+  }
+  .headerIsListed {
+    width: 50% !important;
+    > h6 {
+      font-size: 22px !important;
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .siadimgs {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    > .siadimg {
+      position: absolute;
+      bottom: 8%;
+      width: 49%;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .main-heading {
+    font-size: 37px;
+  }
+  .siadimgs {
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    > .siadimg {
+      position: relative;
+      width: 90%;
+      height: 250px;
+      top: 40px;
+      object-fit: contain;
+      margin-left: 10%;
+    }
+    > .siadimg1 {
+      position: relative;
+      top: 20px;
+      width: 90%;
+      height: 250px;
+      object-fit: contain;
+      margin-left: 10%;
+    }
+  }
+}
+.Tital {
+  background: linear-gradient(180deg, #7e05c4 0%, rgba(49, 6, 104, 0.63) 100%);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.step1 {
+  height: 260px;
+  background: url("../../assets/3\ lomon\ S\ 1.png");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 11px;
+  background-repeat: no-repeat;
+  > h4 {
+    font-size: 22px !important;
+  }
+}
+.BuyBtn {
+  background: #7e05c4;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #ffffff;
+}
+.bottom-bot {
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(#353335, transparent);
+  border-radius: 50%;
+  transform: translate(5px, 15px);
+}
+.top-bot {
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(#353335, transparent);
+  border-radius: 50%;
+  transform: translate(5px, -15px);
+}
+.timeline {
+  height: 190px !important;
+  background: rgba(41, 28, 56, 0.63);
+  border-radius: 16px;
+  width: 270px;
+  height: auto;
+  min-height: 100px;
+  display: flex !important;
+}
+.timeline ul {
+  list-style-type: none; /* no default bullets */
+  display: flex !important;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.new {
+  color: #1b1b1d !important;
+  opacity: 0;
+}
+.timeline ul li {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14.5px;
+}
+
+.timeline ul li:before {
+  /* the custom styled bullets */
+  background-color: #14ccbb;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 2px;
+  height: 10px;
+  width: 10px;
+}
+.accordionHeading {
+  background: linear-gradient(
+    152.42deg,
+    #1b1b1d 17.16%,
+    rgba(27, 27, 29, 0) 115.54%
+  );
+}
+.highcharts-background {
+  fill: transparent;
+}
+.highcharts-credits {
+  display: none;
+}
+.Tokenomics {
+  background: radial-gradient(
+    22% 35.13% at 50% 60%,
+    rgba(150, 22, 234, 0.31) 5%,
+    rgba(45, 7, 70, 0) 95%
+  );
+  z-index: 9;
+}
+.icons {
+  color: #7e05c4;
+  font-size: 32px;
+  cursor: pointer;
+}
+button {
+  font-family: "Montserrat", sans-serif !important;
+}
+.highcharts-text-outline {
+  stroke-width: 0px !important;
+}
+.highcharts-label > text {
+  stroke: #ddd !important;
+  fill: #ddd !important;
+  letter-spacing: 1px;
+  font-size: 14px !important;
+  font-weight: 100 !important;
+  stroke-width: 0px !important;
+}
+.step1 {
+  position: relative;
+  img {
+    position: absolute;
+    bottom: 7%;
+    right: 7%;
+  }
+}
+.new1 {
+  color: #90ee90 !important;
+}
+h1,
+h4 {
+  font-size: 24px;
+  font-weight: 500 !important;
+}
+.Tital {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  margin: 0% !important;
+  // padding: 0% !important;
+}
+p {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+ul {
+  li {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    span {
+      font-size: 14px !important;
+      font-weight: 500 !important;
+    }
+  }
+}
+.coin-img {
+  padding: 16px;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+}
+.coin-img:hover {
+  background: rgba(41, 28, 56, 0.63);
+  background: linear-gradient(180deg, #0e0d0f 100%, #1e1e1e 0%);
+}
+.new-but {
+  width: 47% !important;
+  @media only screen and (max-width: 576px) {
+    width: 100% !important;
+  }
+}
+.newImg {
+  width: 60%;
+}
+@media only screen and (max-width: 992px) {
+  .newImg {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 567px) {
+  .newImg {
+    width: 100%;
+  }
+}
+.Login:hover {
+  color: #fff !important;
+}
+@media only screen and (max-width: 992px) {
+  .timeline {
+    height: auto !important;
+  }
+  .Login {
+    justify-content: center !important;
+  }
+}
+button {
+  p {
+    font-size: 13px !important;
+  }
+}
+
+.faq {
+  width: 100%;
+  padding-bottom: 80px;
+
+  &__title {
+    margin: 0;
+    padding-bottom: 25px;
+  }
+
+  &__question {
+    width: 100%;
+  }
+  .font-weight-bold {
+    background: #1b1b1d !important;
+  }
+  &__question-button {
+    background: rgb(27, 27, 29) !important;
+    color: #fff !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    transition: 0.7s ease-in-out;
+    padding: 0px;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    &::after {
+      // content: url(.././src/assets/PLUS.svg);
+      margin-right: 17px;
+      transform: rotate(90deg);
+    }
+
+  }
+
+  &__desc {
+    padding-right: 17px;
+    margin: 0%;
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    transition: 0.7s ease-in-out;
+  }
+}
+.show-description {
+  color: #fff;
+  height: auto !important;
+  opacity: 1 !important;
+  padding: 16px 18px !important;
+}
+.dark {
+  color: #fff !important;
+  background: #1b1b1d !important;
+}
